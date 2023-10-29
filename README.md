@@ -12,6 +12,8 @@ C_s = np.array([[-1, 1, 0, 0, 0, 0, 0, 0, 0, 0],[0,-1, 1, 0, 0, 0, 0, 0, 0, 0],[
 
 print(C_b)
 
+# plotting function
+
 def tenseg_plot(N,C_b,C_s):
    
     # compute the bar and string matrices
@@ -58,7 +60,6 @@ def tenseg_plot(N,C_b,C_s):
     plt.show()
    
     return plt
-   
 
 #plot
 fig_handle = tenseg_plot(N,C_b,C_s)
