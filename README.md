@@ -1,5 +1,3 @@
-# Exploration-of-Tensegrity-Applications-in-Airfoil-Designs
-
 import numpy as np # for matrix operations and plotting
 from matplotlib import pyplot as plt # for plotting commands
 
@@ -13,8 +11,6 @@ C_b = np.array([[0, 1, 0, -1, 0, 0, 0, 0, 0, 0],[1, 0, -1, 0, 0, 0, 0, 0, 0, 0],
 C_s = np.array([[-1, 1, 0, 0, 0, 0, 0, 0, 0, 0],[0,-1, 1, 0, 0, 0, 0, 0, 0, 0],[0, 0, -1, 1, 0, 0, 0, 0, 0, 0],[1, 0, 0, -1, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, -1, 1, 0, 0, 0, 0], [1, 0, 0, 0, 0, -1, 0, 0, 0, 0], [-1, 0, 0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 1, 0, -1, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, -1, 1, 0], [0, 0, 0, 0, 1, 0, 0, 0, -1, 0], [0, 0, 0, 0, 1, 0, 0, 0, -1, 0], [0, 0, 0, 0, -1, 0, 0, 0, 0, 1], [0, 0, 0, 0, 0, 0, 0, 1, 0, -1]])
 
 print(C_b)
-
-# plotting function
 
 def tenseg_plot(N,C_b,C_s):
    
